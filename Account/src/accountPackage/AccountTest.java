@@ -47,14 +47,10 @@ class AccountTest {
 	public void sameAcctList() {
 		assertArrayEquals(allAccounts1, allAccounts2);
 	}
-	@Test
-	public void same() {
-		assertEquals(acct1.getBalance(), acct1.getBalance());
-	}
 	
 	@Test
-	public void diff() {
-		assertFalse(acct1.getName() == acct2.getName());
+	public void diffAcctList() {
+		assertFalse(acct1.getName() == acct4.getName());
 	}
 
 }
