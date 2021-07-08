@@ -11,8 +11,11 @@ public class DriverFile {
 		acct1.deposit(200);
 		acct2.setName("Montoo");
 		acct2.setBalance(2000);
+		acct2.withdraw(100);
 		System.out.println(acct1.getName());
 		System.out.println(acct1.getBalance());
+		System.out.println(acct2.getName());
+		System.out.println(acct2.getBalance());
 	}
 
 }
