@@ -13,6 +13,7 @@ public class DriverFile {
 		acct2.setBalance(2000);
 		acct2.withdraw(100);
 		acct2.deposit(400);
+		acct2.deposit(500);
 		System.out.println(acct1.getName());
 		System.out.println(acct1.getBalance());
 		System.out.println(acct2.getName());
