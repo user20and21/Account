@@ -47,5 +47,9 @@ class AccountTest {
 	public void sameAcctList() {
 		assertArrayEquals(allAccounts1, allAccounts2);
 	}
+	@Test
+	public void same() {
+		assertEquals(acct1.getBalance(), acct1.getBalance());
+	}
 
 }
