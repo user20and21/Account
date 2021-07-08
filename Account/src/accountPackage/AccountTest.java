@@ -51,5 +51,10 @@ class AccountTest {
 	public void same() {
 		assertEquals(acct1.getBalance(), acct1.getBalance());
 	}
+	
+	@Test
+	public void diff() {
+		assertFalse(acct1.getName() == acct2.getName());
+	}
 
 }
